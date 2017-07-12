@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+"""guesser.py, by Chris Williams, 07-11-2017
+This program has the user guess a number between 1 and 100.
+"""
+
+def main():
+      print "Guess a number between 1 and 100."
+      random number = 35
+
+      userGuess = input("Your Guess")
+      if userGuess == randomNumber:
+            print "You Got It!"
+      else:
+            print "That's not it."
+
+
+if __name__ == "__main__":
+      main()
